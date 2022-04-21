@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="formest.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Indie+Flower&family=Montserrat:wght@100;300&family=Open+Sans:ital,wght@1,300&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form>
+        <h1>PESO IDEAL SEGUN LA ALTURA, EDAD Y SEXO </h1>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-25">
+                    <label>Ingrese sus apellidos y nombre(s)</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" maxlength="20" size="20" required placeholder="apellidos y nombre(s)">
+                </div>    
+            </div>               
+        </select> 
+        <br><br>
+        </select> 
+        <br><br>
+        <label>SEXO</label><br>
+          <input type="radio" name="gen">
+          <label >masculino</label><br>
+          <input type="radio" name="gen">
+          <label >femenino</label><br>
+        <br><br>
+        <label>ALTURA EN CENTIMETROS (VALORES POSITIVOS)</label>
+        <input type="number" step="any" min="110" max="220"  required>        <br><br>
+        <br><br>
+        <label>EDAD</label><br>
+        <select name="EDAD">
+            <option value="20-30">20-30</option>
+            <option value="31-50">31-50</option>
+            <option value="MAS DE 50 AÑOS">MAS DE 50 AÑOS</option>
+        </select> 
+        <label>PESO EN VALORES POCITIVOS</label>
+        <input type="number" step="any" min="30" max="250"  required>        <br><br>
+        <br><br>
+        <label>CIRCUNFERENCIA DE MUÑECA DERECHA EN CENTIMETROS</label>
+        <input type="number" step="any" min="15" max="22"  required>        <br><br>
+        <br>
+        <input type="submit" value="Registrar">
+        <input type="reset" value="Limpiar">
+    </div>  
+    </form>
+</body>
+</html>
